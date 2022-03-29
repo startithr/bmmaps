@@ -6,8 +6,8 @@ const config = {
   accessToken:
     'pk.eyJ1IjoiaW5mb3N0YXJ0aXQiLCJhIjoiY2t6MnFkb3NxMDBmYjJudG00dDlodWl6cSJ9.8ABWFSKEAzbuVzZcwkbxfQ',
   CSV: './Data.csv',
-  center: [17.8076584, 43.3435855],
-  zoom: 6,
+  center: [17,825963778361903, 43,33872113674153],
+  zoom: 7,
   title: 'Dekanati i župni uredi',
   description:
     'Ovdje je popis dekanata i župnih ureda po biskupijama. Filtrira se tako da - lorem ipsum',
