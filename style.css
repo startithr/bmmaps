@@ -77,11 +77,11 @@
     font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', Sans-serif;
     text-align: center;
     padding: 5;
-    width: 180px;
+    width: auto;
   }
 
 .mapboxgl-popup-close-button {
-    display: none;
+    display: block;
   }
 
 .mapboxgl-popup-content h3 {
