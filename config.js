@@ -6,7 +6,7 @@ const config = {
   accessToken:
     'pk.eyJ1IjoiaW5mb3N0YXJ0aXQiLCJhIjoiY2t6MnFkb3NxMDBmYjJudG00dDlodWl6cSJ9.8ABWFSKEAzbuVzZcwkbxfQ',
   CSV: './Data.csv',
-  center: [17,825963778361903, 43,33872113674153],
+  center: [17,82596, 43,33872],
   zoom: 7,
   title: 'Dekanati i župni uredi',
   description:
