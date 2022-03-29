@@ -1,16 +1,16 @@
 #sidebarA{
-    color: white;
+    color: transparent;
 }
 
 #filterResults{
     font-size: 12px;
     color: white;
-    background-color: #448EE4;
+    background-color: #A12A2A;
 
 }
 
 .theme{
-    background-color: #2A395F;
+    background-color: #A12A2A;
 }
 
 .select{
@@ -37,8 +37,8 @@
 .listings .item .title {
     display: inline-block;
     width: 100%;
-    color: #2A395F;
-    font-weight: 800;
+    color: #A12A2A;
+    font-weight: 600;
     margin-top: 5px;
     text-decoration: none;
 }
@@ -86,11 +86,8 @@
 
 .mapboxgl-popup-content h3 {
     color:black;
-    font-weight: 500;
+    font-weight: 400;
     margin: 0;
     display: block;
 
   }
-
-
-  
