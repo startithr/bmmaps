@@ -369,6 +369,8 @@ const geocoder = new MapboxGeocoder({
   accessToken: mapboxgl.accessToken, // Set the access token
   mapboxgl: mapboxgl, // Set the mapbox-gl instance
   marker: true, // Use the geocoder's default marker style
+  marker-color: #A12A2A,
+  marker-style: rocket,
   zoom: 11,
 });
 
