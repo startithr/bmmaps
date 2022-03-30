@@ -459,7 +459,7 @@ map.on('load', () => {
             'circle-color': '#3D2E5D', // color of circles
             'circle-stroke-color': 'white',
             'circle-stroke-width': 1,
-            
+            'circle-opacity': 0.8,
           },
         });
       },
