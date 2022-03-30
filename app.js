@@ -370,7 +370,6 @@ const geocoder = new MapboxGeocoder({
   mapboxgl: mapboxgl, // Set the mapbox-gl instance
   marker: true, // Use the geocoder's default marker style
   marker-color: #A12A2A,
-  marker-style: rocket,
   zoom: 11,
 });
 
