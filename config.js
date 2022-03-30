@@ -11,7 +11,7 @@ const config = {
   title: 'Dekanati i župni uredi',
   description:
     'Ovdje je popis dekanata i župnih ureda po biskupijama. Filtrira se tako da - lorem ipsum',
-  sideBarInfo: ['Location_Name', 'Address', 'URL'],
+  sideBarInfo: ['Zupni_ured', 'Naziv', 'Mjesto'],
   popupInfo: ['URL'],
   filters: [
     {
