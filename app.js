@@ -455,11 +455,11 @@ map.on('load', () => {
             data: geojsonData,
           },
           paint: {
-            'circle-radius': 5, // size of circles
+            'circle-radius': 6, // size of circles
             'circle-color': '#3D2E5D', // color of circles
             'circle-stroke-color': 'white',
             'circle-stroke-width': 1,
-            'circle-opacity': 0.7,
+            'circle-opacity': 0,
           },
         });
       },
