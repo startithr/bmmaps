@@ -8,21 +8,12 @@ const config = {
   CSV: './Data.csv',
   center: [17.825963778361903, 43.33872113674153],
   zoom: 7,
-  title: 'Dekanati i župni uredi',
+  title: 'Karta Mostarsko-duvanjske i Trebinjsko-mrkanske biskupije',
   description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor ante, consectetur a libero sed, fringilla aliquam dui. Pellentesque euismod arcu dictum mauris eleifend dictum. Proin sed lorem sodales, vehicula orci in, laoreet sem. Duis gravida ligula leo, non scelerisque urna sagittis in. Quisque eleifend dui non facilisis consectetur. Duis bibendum mollis venenatis. Nulla et consequat lectus. In interdum iaculis suscipit. Donec sagittis massa mattis, ornare elit in, commodo ipsum. Ut nec convallis leo. In maximus, enim a congue interdum, orci felis congue velit, a mollis nisi nulla eu tellus. Cras vitae augue tortor.',
+    'Popis i položaj župnih ureda. ',
   sideBarInfo: ['Zupni_ured', 'Naziv', 'Mjesto'],
   popupInfo: ['URL'],
   filters: [
-    {
-      type: 'dropdown',
-      title: 'Odaberite biskupiju: ',
-      columnHeader: 'Biskupija',
-      listItems: [
-        'Mostarsko-duvanjska biskupija',
-        'Trebinjsko-mrkanska biskupija',
-      ],
-    },
    {
       type: 'dropdown',
       title: 'Odaberite dekanat: ',
