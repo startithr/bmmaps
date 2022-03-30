@@ -10,7 +10,7 @@ const config = {
   zoom: 7,
   title: 'Dekanati i župni uredi',
   description:
-    'Ovdje je popis dekanata i župnih ureda po biskupijama. Filtrira se tako da - lorem ipsum',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer dolor ante, consectetur a libero sed, fringilla aliquam dui. Pellentesque euismod arcu dictum mauris eleifend dictum. Proin sed lorem sodales, vehicula orci in, laoreet sem. Duis gravida ligula leo, non scelerisque urna sagittis in. Quisque eleifend dui non facilisis consectetur. Duis bibendum mollis venenatis. Nulla et consequat lectus. In interdum iaculis suscipit. Donec sagittis massa mattis, ornare elit in, commodo ipsum. Ut nec convallis leo. In maximus, enim a congue interdum, orci felis congue velit, a mollis nisi nulla eu tellus. Cras vitae augue tortor.',
   sideBarInfo: ['Zupni_ured', 'Naziv', 'Mjesto'],
   popupInfo: ['URL'],
   filters: [
