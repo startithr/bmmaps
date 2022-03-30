@@ -449,7 +449,7 @@ map.on('load', () => {
         // Add the the layer to the map
         map.addLayer({
           id: 'locationData',
-          type: 'Point',
+          type: 'circle',
           source: {
             type: 'geojson',
             data: geojsonData,
