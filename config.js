@@ -15,7 +15,7 @@ const config = {
   popupInfo: ['URL'],
   filters: [
    {
-      type: 'checkbox',
+      type: 'dropdown',
       title: 'Odaberite biskupiju: ',
       columnHeader: 'Biskupija', // Case sensitive - must match spreadsheet entry
       listItems: ['Mostarsko-duvanjska biskupija', 'Trebinjsko-mrkanska biskupija'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
