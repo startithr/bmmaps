@@ -14,30 +14,27 @@ const config = {
   sideBarInfo: ['Zupni_ured', 'Naziv', 'Mjesto'],
   popupInfo: ['URL'],
   filters: [
-    {
-      type: "dropdown",
-      title: "Odaberite biskupiju: ",
-      columnHeader: "Biskupija",
+   {
+      type: 'checkbox',
+      title: 'Odaberite biskupiju: ',
+      columnHeader: 'Biskupija', // Case sensitive - must match spreadsheet entry
+      listItems: ['Mostarsko-duvanjska biskupija', 'Trebinjsko-mrkanska biskupija'], // Case sensitive - must match spreadsheet entry; This will take up to six inputs but is best used with a maximum of three;
+   },
+   {
+      type: 'dropdown',
+      title: 'Odaberite dekanat: ',
+      columnHeader: 'Dekanat',
       listItems: [
-        "Trebinjsko-mrkanska biskupija",
-        "Mostarsko-duvanjska biskupija",
-      ],
-    },
-    {
-      type: "dropdown",
-      title: "Odaberite dekanat: ",
-      columnHeader: "Dekanat",
-      listItems: [
-        "Broćanski dekanat",
-        "Čapljinski dekanat",
-        "Duvanjski dekanat",
-        "Grudski dekanat",
-        "Ljubuški dekanat",
-        "Mostarski dekanat",
-        "Posuški dekanat",
-        "Širokobriješki dekanat",
-        "Stolački dekanat",
-        "Trebinjski dekanat",
+        'Broćanski dekanat',
+        'Čapljinski dekanat',
+        'Duvanjski dekanat',
+        'Grudski dekanat',
+        'Ljubuški dekanat',
+        'Mostarski dekanat',
+        'Posuški dekanat',
+        'Širokobriješki dekanat',
+        'Stolački dekanat',
+        'Trebinjski dekanat',
       ],
     },
   ],
