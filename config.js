@@ -6,7 +6,7 @@ const config = {
   accessToken:
     'pk.eyJ1IjoiaW5mb3N0YXJ0aXQiLCJhIjoiY2t6MnFkb3NxMDBmYjJudG00dDlodWl6cSJ9.8ABWFSKEAzbuVzZcwkbxfQ',
   CSV: './Data.csv',
-  center: [16.632916834626496, 43.78831073687657],
+  center: [17.607144968084302, 43.82809404286912],
   zoom: 7,
   title: 'Karta Mostarsko-duvanjske biskupije',
   description:
